@@ -1,6 +1,6 @@
 include_directories ("${PROJECT_SOURCE_DIR}/include" "${PROJECT_BINARY_DIR}/include")
 
-add_executable (1807.02079.TDep 1807.02079.Tdep.cpp)
+add_executable (1807.02079.TDep 1807.02079.TDep.cpp)
 add_executable (1807.02079.Fits 1807.02079.Fits.cpp)
 
 target_link_libraries (1807.02079.TDep ThermalFIST)
