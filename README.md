@@ -30,7 +30,7 @@ The dependent `Thermal-FIST` library will also be built.
 
 Running
 ```
-./bin/1807.02079.TDep
+./1807.02079.TDep
 ```
 will generate two output files:
 - `ZeroWidth-vs-BW-vs-eBW-vs-T.dat` - contains the temperature dependence of the ratios of various hadron yields calculated in the BW or eBW scheme over the yields calculated in the zero-width approximation. The generated data are plotted in Figs. 1 and 2a of the paper.
@@ -40,7 +40,7 @@ will generate two output files:
 
 Running
 ```
-./bin/1807.02079.Fits
+./1807.02079.Fits
 ```
 will perform the thermal fits within the three considered schemes to the hadron yield data of the ALICE collaboration at different centralities. 
 The program will output `*.txt` and `*.out` files for each fit containing, respectively, the fit log and the resulting data-to-model comparison of hadron yields.
