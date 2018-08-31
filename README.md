@@ -12,7 +12,7 @@ There are two C++ scripts in the repository, located in the [src](src) folder:
 Both scripts are annotated and can be generalized for other applications.
 
 ## Usage
-The preferred way is to use **cmake**.
+The preferred way is to use `cmake`.
 
 On a Unix-like system one can run the following commands from the root project folder to build the programs:
 ```bash
@@ -23,7 +23,7 @@ make 1807.02079.TDep
 make 1807.02079.Fits
 ```
 
-This will build the aforementioned `1807.02079.TDep` and `1807.02079.Fits` executables in the `build/bin` folder.
+This will build the aforementioned `1807.02079.TDep` and `1807.02079.Fits` executables in the `build` folder.
 The dependent `Thermal-FIST` library will also be built.
 
 #### Temperature dependence
