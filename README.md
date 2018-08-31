@@ -2,7 +2,7 @@
 
 This repository contains the source code for calculations presented in the paper https://arxiv.org/abs/1807.02079
 
-Calculations are performed within the [Thermal-FIST](https://github.com/vlvovch/Thermal-FIST) package which is used in this repository as a submodule
+Calculations are performed within the [Thermal-FIST](https://github.com/vlvovch/Thermal-FIST) package which is used in this repository as a submodule.
 Therefore, it is advisable to use the `--recurse-submodules` option when cloning this repository in order to also clone the `Thermal-FIST` submodule automatically 
 
 There are two C++ scripts in the repository, located in the [src](src) folder:
