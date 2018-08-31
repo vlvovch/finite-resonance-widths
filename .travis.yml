@@ -1,0 +1,17 @@
+language: cpp
+compiler: g++
+sudo: required
+dist: trusty
+
+before_install:
+  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+  - sudo apt-get update -qq
+  
+script:
+  - mkdir build
+  - cd build
+  - cmake ../
+  - make 1807.02079.TDep -j$(nproc)
+  - make 1807.02079.Fits -j$(nproc)
+  - ./1807.02079.TDep
+  - ./1807.02079.Fits
