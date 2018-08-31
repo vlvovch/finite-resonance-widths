@@ -45,7 +45,7 @@ Running
 will perform the thermal fits within the three considered schemes to the hadron yield data of the ALICE collaboration at different centralities. 
 The program will output `*.txt` and `*.out` files for each fit containing, respectively, the fit log and the resulting data-to-model comparison of hadron yields.
 These fit results are shown in Figs. 3 and 4, and in Table II of the paper.
-The fitted data are located in the [data](data) folder.
+The fitted data are located in the [input/data](input/data) folder.
 
 Alternatively, one can perform the fits within the `QtThermalFIST` gui program included in the `Thermal-FIST` submodule. See more details [here](https://github.com/vlvovch/Thermal-FIST/blob/master/docs/quickstart.md).
 
