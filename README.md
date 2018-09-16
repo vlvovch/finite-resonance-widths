@@ -53,7 +53,7 @@ Alternatively, one can perform the fits within the `QtThermalFIST` gui program i
 ## Attribution
 The code here implements calculations from the following paper:
 
-- V. Vovchenko, M.I. Gorenstein, H. Stoecker, *Finite resonance widths influence the thermal-model description of hadron yields*, [arXiv:1807.02079 [nucl-th]](https://arxiv.org/abs/1807.02079).
+- V. Vovchenko, M.I. Gorenstein, H. Stoecker, *Finite resonance widths influence the thermal-model description of hadron yields*, [Phys. Rev. C **98**, 034906 (2018)](https://doi.org/10.1103/PhysRevC.98.034906), [arXiv:1807.02079 [nucl-th]](https://arxiv.org/abs/1807.02079).
 
 Please include a reference to this paper when using this code or its derived version.
 
