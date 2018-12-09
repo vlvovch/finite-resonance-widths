@@ -36,6 +36,13 @@ will generate two output files:
 - `ZeroWidth-vs-BW-vs-eBW-vs-T.dat` - contains the temperature dependence of the ratios of various hadron yields calculated in the BW or eBW scheme over the yields calculated in the zero-width approximation. The generated data are plotted in Figs. 1 and 2a of the paper.
 - `Widths-p-to-pi-vs-T.dat` - temperature dependence of the proton-to-pion ratio calculated in the three schemes considered for modeling resonance widths. This is plotted in Fig. 2b of the paper.
 
+The figures below depict the calculation results.
+
+| ![Fig. 1](figs/w3_Ratios-T155.png)  |  ![Fig. 2b](figs/w4_ptopi-vs-T.png) |
+|:-------------------------:|:-------------------------:|
+| Fig. 1 | Fig. 2b
+
+
 #### Thermal fits
 
 Running
@@ -49,6 +56,9 @@ The fitted data are located in the [input/data](input/data) folder.
 
 Alternatively, one can perform the fits within the `QtThermalFIST` gui program included in the `Thermal-FIST` submodule. See more details [here](https://github.com/vlvovch/Thermal-FIST/blob/master/docs/quickstart.md).
 
+<p align="center">
+  <img src="figs/w2_data-model.png" alt="Fig. 3" width="600"/>
+</p>
 
 ## Attribution
 The code here implements calculations from the following paper:
