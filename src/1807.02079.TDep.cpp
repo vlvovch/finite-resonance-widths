@@ -14,6 +14,10 @@
 
 using namespace std;
 
+#ifdef ThermalFIST_USENAMESPACE
+using namespace thermalfist;
+#endif
+
 //  Timing
 //  Windows
 #ifdef _WIN32

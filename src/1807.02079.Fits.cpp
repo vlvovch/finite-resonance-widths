@@ -13,6 +13,9 @@
 
 using namespace std;
 
+#ifdef ThermalFIST_USENAMESPACE
+using namespace thermalfist;
+#endif
 
 // Thermal fits to ALICE Pb-Pb 2.76 TeV data at different centralities
 // within the thermal model using zero-width, BW, and eBW schemes 
